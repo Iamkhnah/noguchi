@@ -92,7 +92,7 @@ async function loading() {
 }
 async function get() {
     try {
-        const response = await fetch("https://duckvitne.pythonanywhere.com/Get");
+        const response = await fetch("https://raw.githubusercontent.com/Iamkhnah/noguchi/refs/heads/main/troi.json");
         const data = await response.json();
         console.log(data); 
         data.forEach(a => {
